@@ -1,5 +1,6 @@
 package lc704;
-
+//力扣链接
+//https://leetcode.cn/problems/binary-search/
 public class Main {
 
     public static void main(String[] args) {

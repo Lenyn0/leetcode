@@ -1,5 +1,7 @@
 package lc27;
 
+//力扣链接
+//https://leetcode.cn/problems/remove-element/
 public class Main {
     public static void main(String[] args) {
         int[] nums = {3,2,2,3};

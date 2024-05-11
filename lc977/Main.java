@@ -1,5 +1,7 @@
 package lc977;
 
+//力扣链接
+//https://leetcode.cn/problems/squares-of-a-sorted-array/
 public class Main {
     public static void main(String[] args) {
         int[] nums = {-5,-3,-2,-1};

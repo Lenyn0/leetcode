@@ -1,5 +1,6 @@
 package lc209;
-
+//力扣链接
+//https://leetcode.cn/problems/minimum-size-subarray-sum/
 public class Main {
     public static void main(String[] args) {
         int[] nums = {12,28,83,4,25,26,25,2,25,25,25,12};
