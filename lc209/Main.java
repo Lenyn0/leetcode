@@ -33,6 +33,7 @@ public class Main {
         return result;
     }
 
+    //可用Math.min代替
     public static int updateResult(int result,int t){
         if (t<result){
             return t;
@@ -76,8 +77,10 @@ public class Main {
         return result;
     }
 
-    //cite
+    //cite（me）
     //前后双指针法，但是不是暴力遍历，同时移动前后双指针，使其一直保持在满足条件的边缘
+
+    //原cite是外层遍历right，内层遍历left，写起来更简单也更好理解
     public static int minSubArrayLen_cite(int target, int[] nums){
         int right= 0;
         int sum=0;
