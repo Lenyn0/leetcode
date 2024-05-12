@@ -117,21 +117,21 @@ public class Main {
             int y=StartY;
 
             for(;y<length;y++){
-                System.out.println(x+"  "+y);
+                //System.out.println(x+"  "+y);
                 result[x][y]=count++;
             }
 
             for (;x<length;x++){
-                System.out.println(x+"  "+y);
+                //System.out.println(x+"  "+y);
                 result[x][y]=count++;
             }
 
             for (;y>n-length-1;y--){
-                System.out.println(x+"  "+y);
+                //System.out.println(x+"  "+y);
                 result[x][y]=count++;
             }
             for (;x>n-length-1;x--){
-                System.out.println(x+"  "+y);
+                //System.out.println(x+"  "+y);
                 result[x][y]=count++;
             }
             loop--;
