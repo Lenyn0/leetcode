@@ -28,4 +28,33 @@ class Solution {
         }
         return resultHead.next;
     }
+
+    //双指针
+    public ListNode reverseList_1(ListNode head) {
+        ListNode pre=null;
+        ListNode cur=head;
+        while(cur!=null){
+            ListNode temp=cur.next;
+            cur.next=pre;
+            pre=cur;
+            cur=temp;
+        }
+        return pre;
+    }
+
+    //递归
+    public ListNode reverseList_2(ListNode head) {
+        return reverse(null,head);
+    }
+
+    public ListNode reverse(ListNode pre,ListNode cur){
+        if (cur==null){
+            return pre;
+        }
+        ListNode next=cur.next;
+
+        cur.next=pre;
+        reverse(cur,next);
+        return null;
+    }
 }
